@@ -1,1 +1,0 @@
-# abdulmelikkalkan.github.io
