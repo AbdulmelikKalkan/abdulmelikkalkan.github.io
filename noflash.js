@@ -8,10 +8,12 @@
     var classNameLight = 'light-mode';
   
     function setClassOnDocumentBody(darkMode) {
-      // document.body.classList.add(darkMode ? classNameDark : classNameLight);
-      // document.body.classList.remove(darkMode ? classNameLight : classNameDark);
-      // document.body.classList.add(classNameDark);
-      // document.body.classList.remove(classNameLight);
+
+      if (document.body.classList.value.length) {
+        console.log(document.body.classList.value.length);
+        document.body.classList.add(darkMode ? classNameDark : classNameLight);
+        document.body.classList.remove(darkMode ? classNameLight : classNameDark);
+      }
     }
     
     var preferDarkQuery = '(prefers-color-scheme: dark)';
