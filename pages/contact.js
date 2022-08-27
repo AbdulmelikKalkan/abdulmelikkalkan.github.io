@@ -6,7 +6,7 @@ export default function Contact() {
     <Main>
       <ul className="flex relative justify-evenly m-0 inset-y-1/2 sm:h-3/6 sm:justify-between sm:inset-y-1/3 sm:flex-col">
         <li className="flex justify-center">
-          <a href="https://github.com/AbdulmelikKalkan" target="_blank" rel="opener">
+          <a href="https://github.com/AbdulmelikKalkan" target="_blank" rel="opener  noreferrer">
             <div className="flex justify-center">
               <FaGithub className="w-5 h-5" />
             </div>
@@ -19,7 +19,7 @@ export default function Contact() {
           <a
             href="https://www.linkedin.com/in/abdulmelikkalkan/"
             target="_blank"
-            rel="opener"
+            rel="opener  noreferrer"
           >
             <div className="flex justify-center">
               <FaLinkedinIn className="w-5 h-5" />
@@ -30,7 +30,7 @@ export default function Contact() {
           </a>
         </li>
         <li className="flex justify-center">
-          <a href="https://twitter.com/AbdulmeliKalkan" target="_blank" rel="opener">
+          <a href="https://twitter.com/AbdulmeliKalkan" target="_blank" rel="opener  noreferrer">
             <div className="flex justify-center">
               <FaTwitter className="w-5 h-5" />
             </div>
@@ -40,7 +40,7 @@ export default function Contact() {
           </a>
         </li>
         <li className="flex justify-center">
-          <a href="mailto:abdulmelikkalkan@gmail.com" target="_blank" rel="opener">
+          <a href="mailto:abdulmelikkalkan@gmail.com" target="_blank" rel="opener  noreferrer">
             <div className="flex justify-center">
               <SiGmail className="w-5 h-5" />
             </div>

@@ -57,9 +57,9 @@ const SideBar = () => {
   const logo = () => {
     const currentTheme = theme === 'system' ? systemTheme : theme
     if (currentTheme !== 'light') {
-      return <Image src="/DarkLogo.PNG" width={40} height={40} />
+      return <Image src="/DarkLogo.PNG" alt='a dark logo' width={40} height={40} />
     } else {
-      return <Image src="/LightLogo.PNG" width={40} height={40} />
+      return <Image src="/LightLogo.PNG" alt='a light logo' width={40} height={40} />
     }
   }
   const home = () => {
@@ -174,6 +174,7 @@ const SideBar = () => {
         <Image
           className="rounded-full"
           src="/profilfotopage.jpg"
+          alt='a photo of profile'
           width={36}
           height={36}
         />
