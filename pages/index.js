@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <Main>
       <header className="text-3xl font-bold mb-6">
-        Hi, I'm Abdulmelik Kalkan
+        Hi, I&apos;m Abdulmelik Kalkan
       </header>
       <p>
         Software engineer currently working as a freelancer, backend developer.
-        I'm living in Antalya, Turkey. During my free time, I like to swim and
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
         ride bicycle.
       </p>
       <br />
