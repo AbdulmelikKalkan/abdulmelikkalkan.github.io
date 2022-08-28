@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: { max: '639px' }
+      sm: { max: '639px' },
+      bar: {min: '639px'}
     },
     extend: {
       colors: {

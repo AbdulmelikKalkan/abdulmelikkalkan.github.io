@@ -1,0 +1,17 @@
+@media (max-width:40em) {
+    #sidebar {
+      width: 92% !important;
+      margin: auto !important;
+      margin-left: 1.25rem !important;
+      margin-right: 1.25rem !important;
+      height: 70px !important;
+      border-radius: 16px;
+    }
+    #sidebar #sidelist  {
+      display: flex !important;
+      align-items: center !important;
+    }
+    #sidebar [aria-label]:after, #sidebar [aria-label]:before {
+      display: none
+    }
+}

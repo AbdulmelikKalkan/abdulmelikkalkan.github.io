@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/sidebar.css'
 import { ThemeProvider } from 'next-themes'
 function MyApp({ Component, pageProps }) {
   return (

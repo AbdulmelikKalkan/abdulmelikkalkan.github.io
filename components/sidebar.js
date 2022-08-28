@@ -27,13 +27,29 @@ const SideBar = () => {
     if (currentTheme !== 'light') {
       return (
         <button>
-          <WiDaySunny onClick={() => setTheme('light')} />
+          <Tooltip
+            content={'Light'}
+            placement="right"
+            color="invert"
+            offset={26}
+          >
+            <WiDaySunny onClick={() => setTheme('light')} />
+          </Tooltip>
+          
         </button>
       )
     } else {
       return (
         <button>
-          <FaMoon onClick={() => setTheme('dark')} />
+          <Tooltip
+            content={'Dark'}
+            placement="right"
+            color="invert"
+            offset={26}
+          >
+            <FaMoon onClick={() => setTheme('dark')} />
+          </Tooltip>
+          
         </button>
       )
     }
@@ -43,13 +59,29 @@ const SideBar = () => {
     if (collapse) {
       return (
         <button>
-          <FaAngleRight onClick={() => setCollapse(false)} />
+          <Tooltip
+            content={'expand'}
+            placement="right"
+            color="invert"
+            offset={26}
+          >
+            <FaAngleRight onClick={() => setCollapse(false)} />
+          </Tooltip>
+          
         </button>
       )
     } else {
       return (
         <button>
-          <FaAngleLeft onClick={() => setCollapse(true)} />
+          <Tooltip
+            content={'collapse'}
+            placement="right"
+            color="invert"
+            offset={26}
+          >
+            <FaAngleLeft onClick={() => setCollapse(true)} />
+          </Tooltip>
+          
         </button>
       )
     }
@@ -133,9 +165,9 @@ const SideBar = () => {
   }
   const styles = {
     sidebarCollapse:
-      'flex flex-col fixed top-0 bottom-0 left-0 justify-between items-center gap-2 p-0 bg-sbg w-16 h-full dark:bg-dsbg dark:border-r dark:border-gray-800',
+      'flex flex-col bar:fixed bar:top-0 bar:bottom-0 bar:left-0 sm:absolute justify-between items-center gap-2 p-0 bg-sbg w-16 h-full dark:bg-dsbg dark:border-r dark:border-gray-800',
     sidebarExpand:
-      'flex flex-col fixed top-0 bottom-0 left-0 justify-between items-center gap-2 p-0 bg-sbg w-32 h-full dark:bg-dsbg dark:border-r dark:border-gray-800'
+      'flex flex-col bar:fixed bar:top-0 bar:bottom-0 bar:left-0 sm:absolute justify-between items-center gap-2 p-0 bg-sbg w-32 h-full dark:bg-dsbg dark:border-r dark:border-gray-800'
   }
   return (
     <nav
@@ -147,13 +179,13 @@ const SideBar = () => {
       </div>
       <div className="grow flex items-center">
         <ul id="sidelist">
-          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2  text-slate-700 hover:text-black bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
+          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2  text-slate-700 bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
             <Link href="/">{home()}</Link>
           </li>
-          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2 text-slate-700 hover:text-black bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
+          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2 text-slate-700 bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
             <Link href="/about">{about()}</Link>
           </li>
-          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2 text-slate-700 hover:text-black bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
+          <li className="transition ease-in-out hover:scale-125 tooltip rounded-xl p-2 text-slate-700 bg-transparent hover:bg-gray-200 dark:hover:bg-slate-800 dark:text-zinc-50">
             <Link href="/contact">{contact()}</Link>
           </li>
         </ul>
@@ -163,12 +195,6 @@ const SideBar = () => {
       </div>
       <div className="transition ease-in-out hover:scale-125 sm:hidden">
         {renderThemeChanger()}
-        {/* <div v-if="isDark" data-balloon-pos="right">
-        <FaSun />
-      </div>
-      <div v-else data-balloon-pos="right">
-        <FaMoon />
-      </div> */}
       </div>
       <div className="transition ease-in-out hover:scale-125 mb-3 sm:hidden">
         <Image

@@ -17,6 +17,67 @@ export default function Home() {
         In the past, I have worked for SoftwareOne Turkey, primarily on secrets
         management and access management systems.
       </p>
+      <br></br>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
+      <p>
+        Software engineer currently working as a freelancer, backend developer.
+        I&apos;m living in Antalya, Turkey. During my free time, I like to swim and
+        ride bicycle.
+      </p>
+      <br />
+      <p>
+        In the past, I have worked for SoftwareOne Turkey, primarily on secrets
+        management and access management systems.
+      </p>
     </Main>
   )
 }
