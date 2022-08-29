@@ -1,4 +1,4 @@
-import Footer from '../components/footer'
+import Footer from '../../components/footer'
 import { Card, Col, Text, Grid } from '@nextui-org/react'
 import Image from 'next/image'
 
