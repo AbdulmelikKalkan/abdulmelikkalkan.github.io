@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
               of an error in the app I collect data and information (through
               third-party products) on your phone called Log Data. This Log Data
               may include information such as your device Internet Protocol
-              ("IP") address, device name, operating system version, the
+              (&quot;IP&quot;) address, device name, operating system version, the
               configuration of the app when utilizing my Service, the time and
               date of your use of the Service, and other statistics.
             </p>
@@ -62,11 +62,11 @@ export default function PrivacyPolicy() {
               Cookies are files with a small amount of data that are commonly
               used as anonymous unique identifiers. These are sent to your
               browser from the websites that you visit and are stored on your
-              device's internal memory.
+              device&apos;s internal memory.
             </p>
             <p>
-              This Service does not use these "cookies" explicitly. However, the
-              app may use third-party code and libraries that use "cookies" to
+              This Service does not use these &quot;cookies&quot; explicitly. However, the
+              app may use third-party code and libraries that use &quot;cookies&quot; to
               collect information and improve their services. You have the
               option to either accept or refuse these cookies and know when a
               cookie is being sent to your device. If you choose to refuse our
@@ -119,7 +119,7 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <br></br>
-              <strong>Children&#180;s Privacy</strong>
+              <strong>Children&apos;s Privacy</strong>
             </p>
             <div>
               <p>
@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
                 from children. I encourage all children to never submit any
                 personally identifiable information through the Application
                 and/or Services. I encourage parents and legal guardians to
-                monitor their children's Internet usage and to help enforce this
+                monitor their children&apos;s Internet usage and to help enforce this
                 Policy by instructing their children never to provide personally
                 identifiable information through the Application and/or Services
                 without their permission. If you have reason to believe that a
