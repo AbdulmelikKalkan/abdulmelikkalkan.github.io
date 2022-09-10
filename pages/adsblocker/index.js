@@ -68,6 +68,14 @@ export default function AdsBlocker() {
               </a>
               . I will get back to you as soon as possible!
             </p>
+            <a
+              href="https://www.buymeacoffee.com/abdulmelik"
+              target="_blank"
+              rel="opener  noreferrer"
+            >
+              <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" />
+            </a>
+            <br></br>
           </div>
           <Footer></Footer>
         </div>
