@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -9,17 +11,7 @@ const nextConfig = {
     images: {
       unoptimized: true
     }
-  },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/cv',
-  //       destination: '/about',
-  //       permanent: true,
-  //       basePath: false,
-  //     },
-  //   ]
-  // },
+  }
 }
 
 module.exports = nextConfig
