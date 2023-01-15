@@ -76,8 +76,8 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
-      - name: Build Project
-        run: ${{ steps.detect-package-manager.outputs.runner }} yarn build
+      - name: Start Project
+        run: yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
