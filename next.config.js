@@ -13,12 +13,13 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: 'https://abdulmelik.dev/cv',
-        destination: 'https://abdulmelik.dev/about',
-        permanent: false
-      }
+        source: '/cv',
+        destination: '/about',
+        permanent: true,
+        basePath: false,
+      },
     ]
-  }
+  },
 }
 
 module.exports = nextConfig
