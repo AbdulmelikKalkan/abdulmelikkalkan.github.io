@@ -22,4 +22,15 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/cv',
+        destination: '/about',
+        permanent: true,
+        basePath: false,
+      },
+    ]
+  }
+}
