@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // reactStrictMode: true,
-  // swcMinify: true,
+  reactStrictMode: true,
+  swcMinify: true,
   images: {
     unoptimized: true
   },
@@ -10,27 +10,16 @@ const nextConfig = {
       unoptimized: true
     }
   },
-  async redirects() {
-    return [
-      {
-        source: '/cv',
-        destination: '/about',
-        permanent: true,
-        basePath: false,
-      },
-    ]
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/cv',
+  //       destination: '/about',
+  //       permanent: true,
+  //       basePath: false,
+  //     },
+  //   ]
+  // },
 }
 
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/cv',
-        destination: '/about',
-        permanent: true,
-        basePath: false,
-      },
-    ]
-  }
-}
+module.exports = nextConfig
