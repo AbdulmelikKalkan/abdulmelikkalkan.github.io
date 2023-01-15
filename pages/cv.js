@@ -9,7 +9,7 @@ export default function Home() {
     </Main>
   )
 }
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     return {
         redirect: {
           destination: 'https://docs.google.com/document/d/1_5kFQWujxgYVaWwZpiSBG5B7_qGexIW23jl0LLg5PjA/preview#',
